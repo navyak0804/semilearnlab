@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Learn Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f87c267dc.js" crossorigin="anonymous"></script>
+<body>
+<section class="subheader">
+    <nav>
+        <a href="index.html"><img src="Learn Lab.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="interview notes.html">INTERVIEW NOTES</a></li>
+                <li><a href="Study Section.html">STUDY SECTION</a></li>
+                <li><a href="Citations.html">CITATIONS</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Citations</h1>
+    </div>
+    </section>
+
+<section class="mission">
+    <br>
+    <h1>Citations</h1>
+    <p>...</p>
+    <br>
+</section>
+
+<!--Java Script for toggle menu -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+ </script>  
+
+
+
+</body>
+</html>

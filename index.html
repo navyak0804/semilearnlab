@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Learn Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f87c267dc.js" crossorigin="anonymous"></script>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="Learn Lab.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="interview notes.html">INTERVIEW NOTES</a></li>
+                <li><a href="Study Section.html">STUDY SECTION</a></li>
+                <li><a href="Citations.html">CITATIONS</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+     <h1>Learn Lab</h1>
+     <p>Transform your AP Science prep with Learn Lab—where comprehensive study meets academic success<p>
+    <a href="Study Section.html" class="hero-btn">View Study Section</a>
+</div>
+    
+    </section>
+<!--Course-->
+
+<section class="index">
+    <br>
+    <h1>Our Mission</h1>
+</section>
+
+<section class="mainindex">
+    <br>
+    <img src="Science image.png" class="hospital">
+    <br>
+    <br>
+    <p>At Learn Lab, we empower AP Science students to achieve their full potential 
+        by providing a comprehensive database for studying and exam preparation. 
+        Our mission is to deliver reliable, high-quality resources that foster mastery 
+        and confidence in science subjects, paving the way for academic excellence and future success.</p>
+    <br>
+</section>
+
+
+
+
+<!--Java Script for toggle menu -->
+
+ <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+ </script>  
+
+</body>
+</html>
